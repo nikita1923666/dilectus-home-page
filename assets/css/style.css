@@ -1,0 +1,57 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+.main {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #0b72b8;
+    align-content: center;
+}
+
+.logo{
+    padding-top: 20px;
+    position: relative;
+}
+
+.center {
+    align-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.circleContainer {
+    position: absolute;
+}
+
+.c1 {
+    top:30px;
+    left: 50px;
+}
+
+.c1 .circle {
+    width: 100px;
+    height: 100px;
+}
+
+.c2 {
+    top:200px;
+    left: 110px;
+}
+
+.c2 .circle {
+    width: 30px;
+    height: 30px;
+}
+
+.circle {
+    position: absolute;
+    background: #0b72b8;
+    border-radius: 100%;
+}
+
